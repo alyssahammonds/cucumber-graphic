@@ -61,7 +61,7 @@ gsap.to(".titleF", {duration:1, x: 100,ease: "none"});
 
 
 gsap.config({
-  nullTargetWarn: false
+  nullTargetWarn: false 
 });
 
 
