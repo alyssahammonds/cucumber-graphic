@@ -66,14 +66,19 @@ header {
   
 }
 
-.chanuthi{
-
-
-
-}
-
-.ascii{
-  display: flex;
-  flex-direction: row;
-
+.chanuthi-section{
+  .frog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .move{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(0.66rem, 2vw, 1rem);
+    letter-spacing: 0.1em;
 }
