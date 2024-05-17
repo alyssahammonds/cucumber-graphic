@@ -34,9 +34,19 @@ function App() {
   )
 }
 
-gsap.to(".title", { duration: 2, x: 100 });
-// rotate cucumber using gsap
-gsap.to(".cucumber", { duration: 2, rotation: 360 });
+
+gsap.to(".title", { duration: 2, x: 100 }); 
+
+// //bounce effect
+gsap.to(".frog",{
+  duration:2 ,
+  ease: CustomEase.create("custom", "M0,0 C0.309,0 0.186,0.3 0.5,0.3 0.853,0.3 0.684,0.001 1,0 "),  
+  y: -500,repeat: -1},
+);
+// //move to the right effect
+gsap.to(".move", {duration:10,x:"60%",repeat: -1, ease:"none"}) ;  
+gsap.to(".titleF", {duration:1, x: 100,ease: "bounce"});          
+
 gsap.config({
   nullTargetWarn: false
 });
