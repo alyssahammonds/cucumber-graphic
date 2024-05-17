@@ -81,4 +81,5 @@ header {
     font-family: "Bebas Neue", sans-serif;
     font-size: clamp(0.66rem, 2vw, 1rem);
     letter-spacing: 0.1em;
+  }
 }
