@@ -28,15 +28,15 @@ function App() {
       </section>
 
       <section className="chanuthi-section">
-    hiiiiii
+    
       </section>
-      
     </div>
   )
 }
 
 gsap.to(".title", { duration: 2, x: 100 });
-
+// rotate cucumber using gsap
+gsap.to(".cucumber", { duration: 2, rotation: 360 });
 gsap.config({
   nullTargetWarn: false
 });
