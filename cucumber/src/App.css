@@ -71,3 +71,9 @@ header {
 
 
 }
+
+.ascii{
+  display: flex;
+  flex-direction: row;
+
+}
