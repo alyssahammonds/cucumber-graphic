@@ -57,11 +57,11 @@ gsap.to(".frog",{
 );
 // //move to the right effect
 gsap.to(".move", {duration:10,x:"60%",repeat: -1, ease:"none"}) ;  
-gsap.to(".titleF", {duration:1, x: 100,ease: "none"});       
+gsap.to(".titleF", {duration:1, x: 100,ease: "bounce"});          
 
 
 gsap.config({
-  nullTargetWarn: false 
+  nullTargetWarn: false   
 });
 
 
